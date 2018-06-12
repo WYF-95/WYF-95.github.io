@@ -18,7 +18,7 @@ Vue.use(Router)
 Vue.use(Resource)
 
 let router = new Router({
-	mode:'history',
+	mode:'hash',
 	routes:[
 	   {
 	   	path:'/',
